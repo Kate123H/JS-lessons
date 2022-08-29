@@ -1,0 +1,88 @@
+/* .CARD {
+    width: 405px;
+    height:223px;
+    border:1px solid gray;
+    border-radius: 20px;
+    background: rgb(100, 169, 219);
+    margin-left: 130px;
+    box-shadow: 4px  50px 30 px rgba(red, green, blue, alpha);
+} */
+body {
+    background: #ebecef;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.all {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+.mastercard {
+    width: 350px;
+    /* position: absolute;
+    bottom: 290px;
+    right: 580px; */
+}
+
+.numbers {
+    color: #86898f;
+    margin-left: 15px;
+    /* margin-left: 550px; */
+    /* position: absolute;
+    bottom: 290px;
+    right: 400px;
+    display: flex; */
+}
+
+.form-group label{
+    display: block;
+    font-size: 15px;
+}
+
+.form-group input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 0 13px;
+    margin-bottom: 17px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+.row {
+    display: flex;
+}
+
+.row > .form-group:first-child {
+    width: 50% ;
+    margin-right: 10px;
+}
+
+.generate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -19px;
+    margin-bottom: -13px;
+}
+
+.GR {
+    color: #e1e3e8;
+    background: #86898f;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.icon {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1544px-Mastercard-logo.svg.png') no-repeat right;
+    background-size: 40px;
+    padding-left: 20px;
+    background-color: white;
+}

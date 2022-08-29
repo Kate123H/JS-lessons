@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Payment inf</title>
+    <link href="card.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Payment Information</h1>
+    <div class="all">
+    <div class="CARD"></div> 
+    <img
+          src="https://bankstoday.net/wp-content/uploads/2019/07/usnaya-karta-ot-gazprombaknka.jpg"
+          alt="mastercard"
+          class="mastercard"
+        /> 
+    <div class="numbers">
+    <form action="/">
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" id="Name" class="Name" />
+        </div>
+        <div class="form-group">
+            <div class="generate">
+        <label for="card">Card Number</label>  
+        <p> <span class="GR"> generate random </span></p>
+            </div>
+        <input class="icon" type="text" id="card" placeholder='0000 0000 0000 0000' />
+        </div>
+        <div class="row">
+        <div class="form-group">
+        <label for="exp">Expiration (mm/yy)</label>
+        <input type="text" id="exp" />
+        </div>
+        <div class="form-group">
+        <label for="code">Security Code</label>
+        <input type="text" id="code" />
+        </div>
+    </div>
+      </form> 
+    </div> 
+</div>
+<script src="card.js"></script> 
+</body>
+</html>   
