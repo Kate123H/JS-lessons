@@ -32,3 +32,6 @@ document.getElementById('Name').onkeypress = function(event){
         console.log("Name: " + str);
     }
 
+
+    console.log('hi!');
+
